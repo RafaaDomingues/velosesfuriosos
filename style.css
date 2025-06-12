@@ -74,6 +74,10 @@ img#logo {
     text-align: center;
 }
 
+img#capa { 
+    width: 40%;
+}
+
 .galeria {
     margin-top: 20px;
 }
