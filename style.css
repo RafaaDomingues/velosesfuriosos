@@ -97,3 +97,23 @@ footer {
     color: #888;
     font-size: 0.9em;
 }
+
+.reusmo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 30px;
+}
+
+.resumo .texto {
+    flex: 1;
+    color: #747474;
+    font-size: 18px;
+}
+
+.resumo .imagem img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
