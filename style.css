@@ -25,8 +25,8 @@ h2 {
 }
 
 .resumo p, .elenco ul, .homenagem p {
-    font-size: 1.1em;
-    line-height: 1.6em;
+    font-size: 1em;
+    line-height: 1.5em;
     color: #ddd;
 }
 
@@ -76,7 +76,7 @@ img#logo {
 
 img#capa { 
     width: 300px;
-    height: auto;
+    height: 500px;
     border-radius: 10px;
 }
 
