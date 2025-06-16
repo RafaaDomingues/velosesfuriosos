@@ -112,6 +112,6 @@ footer {
     flex: 1;
     color: #747474;
     font-size: 18px;
-    display: inline-block;
+    display: inline-flex;
 }
 
