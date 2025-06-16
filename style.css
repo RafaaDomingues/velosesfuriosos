@@ -75,7 +75,9 @@ img#logo {
 }
 
 img#capa { 
-    width: 30%;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
 }
 
 .galeria {
@@ -106,15 +108,10 @@ footer {
     gap: 30px;
 }
 
-.resumo .texto {
+.resumo .container {
     flex: 1;
     color: #747474;
     font-size: 18px;
     display: inline-block;
 }
 
-.resumo .imagem img {
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
-}
