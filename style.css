@@ -22,12 +22,14 @@ main {
 h2 {
     color: #00aaff;
     margin-bottom: 10px;
+    font-family: "Anton", sans-serif;
 }
 
 .resumo p, .elenco ul, .homenagem p {
     font-size: 1em;
     line-height: 1.5em;
     color: #ddd;
+    font-family:  "Instrument Serif", serif;
 }
 
 .trailer {
