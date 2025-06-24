@@ -78,6 +78,10 @@ h2 {
     height: auto;
 }
 
+.logo {
+    font-weight: 400;
+}
+
 img#logo {
     width: 230px;
     text-align: center;
