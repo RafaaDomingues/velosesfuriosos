@@ -35,6 +35,11 @@ h2 {
     font-size: 35px;
 }
 
+a {
+ font-family: "Bodoni Moda", serif;
+ font-size: 40px;
+}
+
 .resumo p, .elenco ul, .homenagem p {
     font-size: 1em;
     line-height: 1.2em;
