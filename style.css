@@ -40,6 +40,8 @@ a {
  font-size: 40px;
  color: #00aaff;
  text-decoration: none;
+ position: relative;
+ left: 350px;
 }
 
 a:hover {
