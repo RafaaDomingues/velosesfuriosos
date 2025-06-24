@@ -11,6 +11,8 @@ header {
     display: inline-flex;
     padding: 30px;
     color: #00aaff;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 main {
