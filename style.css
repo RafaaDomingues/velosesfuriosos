@@ -38,6 +38,11 @@ h2 {
 a {
  font-family: "Bodoni Moda", serif;
  font-size: 40px;
+ color: #00aaff;
+}
+
+a:hover {
+    color: #055d89;
 }
 
 .resumo p, .elenco ul, .homenagem p {
