@@ -21,6 +21,10 @@ main {
     margin: auto;
 }
 
+.apresentacao {
+    align-items: center;
+}
+
 h1 {
     font-size: 40px;
     font-family: "Bodoni Moda", serif;
