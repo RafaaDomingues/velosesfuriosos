@@ -1,0 +1,73 @@
+/* Navbar */
+.navbar {
+    background-color: #1a1a1a;
+    color: #00aaff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #00aaff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+/* Formulários */
+#form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #111;
+    padding: 30px;
+    border-radius: 8px;
+    color: #eee;
+}
+
+.form-box h2 {
+    color: #00aaff;
+}
+
+.form-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-box input,
+.form-box select,
+.form-box button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-box input, .form-box select {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.form-box button {
+    background-color: #00aaff;
+    color: white;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    background-color: #0077cc;
+}
