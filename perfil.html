@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR"> 
+
+
 
 <head>
     <meta charset="UTF-8">
@@ -7,6 +9,17 @@
     <title>Perfil do Usuario</title>
     <link rel="stylesheet" href="perfil.css">
 </head>
+<script>
+    function mostrarCadastro() {
+        document.getElementById('cadastro').style.display = 'block';
+        document.getElementById('login').style.display = 'none';
+    }
+
+    function mostrarLogin() {
+        document.getElementById('login').style.display = 'block';
+        document.getElementById('cadastro').style.display = 'none';
+    }
+</script>
 
 <body>
     <header>
