@@ -20,6 +20,12 @@ main {
     max-width: 1100px;
     margin: auto;}
 
+    
+img#logo {
+    width: 230px;
+    text-align: center;
+}
+
 .navbar {
     background-color: #1a1a1a;
     color: #00aaff;
