@@ -55,6 +55,9 @@ img#logo {
     text-decoration: underline;
 }
 
+form label{
+    color:aliceblue
+}
 #form-container {
     max-width: 600px;
     margin: 40px auto;
