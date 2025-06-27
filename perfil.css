@@ -6,25 +6,6 @@ body {
     padding: 0;
 }
 
-header {
-    background: color #000;;
-    display: inline-flex;
-    padding: 30px;
-    color: #00aaff;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-main {
-    padding: 40px 20px;
-    max-width: 1100px;
-    margin: auto;}
-
-    
-img#logo {
-    width: 15%;
-}
-
 .navbar {
     background-color: #1a1a1a;
     color: #00aaff;
@@ -34,7 +15,7 @@ img#logo {
     padding: 15px 30px;
 }
 
-.navbar .logo {
+.logo {
     font-size: 1.5em;
     font-weight: bold;
 }
@@ -55,20 +36,17 @@ img#logo {
     text-decoration: underline;
 }
 
-form label{
-    color:aliceblue
-}
 #form-container {
     max-width: 600px;
     margin: 40px auto;
     background-color: #111;
     padding: 30px;
     border-radius: 8px;
-    color: #eee;
 }
 
 .form-box h2 {
     color: #00aaff;
+    margin-bottom: 15px;
 }
 
 .form-box form {
@@ -78,14 +56,13 @@ form label{
 }
 
 .form-box input,
-.form-box select,
 .form-box button {
     padding: 10px;
     border: none;
     border-radius: 5px;
 }
 
-.form-box input, .form-box select {
+.form-box input {
     background-color: #1a1a1a;
     color: #fff;
 }
@@ -94,6 +71,7 @@ form label{
     background-color: #00aaff;
     color: white;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .form-box button:hover {
@@ -112,11 +90,11 @@ form label{
     padding: 8px 12px;
     border-radius: 5px;
     border: 1px solid #333;
-    cursor: pointer;
     color: #ccc;
     display: flex;
     align-items: center;
     gap: 5px;
+    cursor: pointer;
 }
 
 .checkbox-group input[type="checkbox"] {
