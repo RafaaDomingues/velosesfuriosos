@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="logo.png" alt="Logo do Site">
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="login.html">Entrar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="form-container">
+        <div class="form-box">
+            <h2>Cadastro de Usuário</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" min="0" required>
+
+                <label>Categorias favoritas:</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="categoria" value="Ação"> Ação</label>
+                    <label><input type="checkbox" name="categoria" value="Comédia"> Comédia</label>
+                    <label><input type="checkbox" name="categoria" value="Romance"> Romance</label>
+                    <label><input type="checkbox" name="categoria" value="Terror"> Terror</label>
+                    <label><input type="checkbox" name="categoria" value="Drama"> Drama</label>
+                    <label><input type="checkbox" name="categoria" value="Ficção científica"> Ficção científica</label>
+                </div>
+
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Rafaelly Domingues - 2025</p>
+    </footer>
+</body>
+</html>
